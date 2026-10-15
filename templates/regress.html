@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8"><title>Регрессия</title></head>
+<body>
+    <h1>Предсказать вес кота</h1>
+    <form method="post">
+        <p>Возраст (лет): <input type="number" step="0.1" name="age" required></p>
+        <p>Длина тела (см): <input type="number" step="0.1" name="body_length" required></p>
+        <p>Порода:
+            <select name="breed">
+                <option value="Angora">Angora</option>
+                <option value="Maine Coon">Maine Coon</option>
+                <option value="Ragdoll">Ragdoll</option>
+            </select>
+        </p>
+        <p>Пол:
+            <select name="gender">
+                <option value="female">female</option>
+                <option value="male">male</option>
+            </select>
+        </p>
+        <p>Окрас:
+            <select name="color">
+                <option value="white">white</option>
+                <option value="black">black</option>
+                <option value="red/cream">red/cream</option>
+                <option value="grey">grey</option>
+                <option value="brown">brown</option>
+            </select>
+        </p>
+        <button type="submit">Узнать вес</button>
+    </form>
+    <br><a href="/">На главную</a>
+</body>
+</html>
